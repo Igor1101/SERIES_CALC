@@ -2,8 +2,8 @@ MAINDIR = $(PWD)
 JFLAGS = -g
 JC = javac
 .SUFFIXES: .java .class
-.java.class:
-	$(JC)  $(JFLAGS) $*.java
+all:
+	$(JC)  $(JFLAGS) *.java
 	$(JC)  $(JFLAGS) series/*.java
 	$(JC)  $(JFLAGS) mathutil/*.java
 
