@@ -61,7 +61,6 @@ public class Teylor
                 /* Clear all, Switch to Maclaurine, get E */
                 x0 = 0;
                 set_derivatives(new double[]{1,1,1,1,1,1,1,1,1,1,1,1});
-                System.out.printf("our E = %f", f(1));
                 assert (int)Math.E == (int)f(1);
         }
 }
